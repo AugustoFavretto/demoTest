@@ -20,7 +20,7 @@ ENV PATH="/opt/gradle/gradle-7.6/bin:${PATH}"
 RUN ./gradlew build
 
 # Expor a porta da aplicação
-EXPOSE 8089
+EXPOSE 8080
 
 # Comando para iniciar a aplicação
 CMD ["java", "-jar", "build/libs/demo-0.0.1-SNAPSHOT.jar"]
