@@ -6,6 +6,6 @@ spring:
       uri: mongodb+srv://augustofavretto93:AlpOM5ZXkZ5QD0cv@demoteste.yxwpy.mongodb.net/meu_banco?retryWrites=true&w=majority&ssl=true
       auto-index-creation: true
 server:
-  port: 8089
+  port: 8080
 #  AlpOM5ZXkZ5QD0cv
 #  augustofavretto93
