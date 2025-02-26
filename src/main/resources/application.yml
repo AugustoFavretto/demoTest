@@ -3,10 +3,9 @@ spring:
     name: demo
   data:
     mongodb:
-      uri: mongodb+srv://augustofavretto93:AlpOM5ZXkZ5QD0cv@demoteste.yxwpy.mongodb.net/meu_banco?retryWrites=true&w=majority
-      #      uri: mongodb://localhost:27017/meu_banco?retryWrites=true&w=majority
+      uri: mongodb+srv://augustofavretto93:AlpOM5ZXkZ5QD0cv@demoteste.yxwpy.mongodb.net/meu_banco?retryWrites=true&w=majority&ssl=true
       auto-index-creation: true
 server:
-  port: 8080
+  port: 8089
 #  AlpOM5ZXkZ5QD0cv
 #  augustofavretto93
